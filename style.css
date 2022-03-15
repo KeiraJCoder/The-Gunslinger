@@ -96,8 +96,15 @@ p{
     background-image:url("2175854.jpg");
     background-size: cover;
     background-repeat:no-repeat;
-    background-position: fixed;
-    background-attachment: fixed;
+    
+
+}
+
+.creed{
+  background-image:url("scroll.png") ;
+  background-size: contain;
+  background-color: #836f5e;
+
 }
 
 
@@ -179,6 +186,12 @@ p{
   background-size:cover;
 }
 
+#creed {
+  background-image: url("Tull.webp");
+  background-position-y:21%;
+  background-size:cover;
+}
+
 
 #characters {
   background-image: url("rolands.jpeg");
@@ -217,3 +230,42 @@ p{
   overflow:hidden;
 }
 
+
+.scrollFade {
+  opacity: 1;
+  pointer-events: all;
+}
+.scrollFade--hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+.scrollFade--visible {
+  opacity: 1;
+  pointer-events: all;
+}
+.scrollFade--animate {
+  transition: opacity 0.4s ease-in-out;
+}
+
+
+.item {
+  width:50%;
+  text-align: center;
+  margin-top:80%;
+	display: flex;
+  flex-wrap:wrap;
+  padding-bottom:45%;
+  justify-content: space-around;
+	background: transparent;
+  font-size: 30px;
+  margin-inline-start: 24%;
+  font-family: 'Rye', cursive;
+}
+
+/*------*/
+
+@media(max-width: 750px) {
+	body {
+		padding: 10px 25px;
+}
+}
