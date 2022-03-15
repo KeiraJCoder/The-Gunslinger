@@ -9,15 +9,40 @@
 h1 {
   display: flex;
   justify-content: center;
-  color:rgb(253, 253, 251);
+  color:rgb(194, 19, 19);
+  font-family: 'Rye', cursive;
   font-size:50px;
   text-shadow:black 2px 2px;
 }
 
-p {
+p{
+  display:block;
+  justify-content: center;
+  align-items:center;
+  background-color: #FCF5E5;
+  padding:10px;
+  font-family: 'Rye', cursive;
   text-align: center;
-  color:rgb(123, 0, 255);
-  background-color: seashell;
+  width:62%;
+  margin-inline-start: 21%;
+  margin-block-start: 3%;
+
+}
+
+.quote{
+  background-color:rgba(250, 250, 250, 0.805);
+  width:29%;
+  font-family: 'Rye', cursive;
+  align-items: center;
+  margin-inline-start: 36%;
+  display:flex;
+  flex-direction:column;
+  align-content: center;
+  border-style: double;
+  background-image: url("Untitled.jpeg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .title{
@@ -28,16 +53,15 @@ p {
   flex-wrap:wrap;
   align-items: center;
   justify-content: center;
-  text-shadow: black 1, 5;
+  text-shadow: rgb(0, 0, 0) 1, 5;
   position: fixed !important;;
   font-family: 'Rye', cursive;
   text-align: center;
   margin-left:30%;
   margin-top:5;
   font-size:3vw;
-  background-color: transparent;
-  color:white;
-  overflow:hidden;
+  color:rgb(255, 255, 255);
+
 
 }
 
@@ -111,7 +135,7 @@ p {
 
 #nav {
 
-    border-radius: 100px;
+    border-radius: 120px;
     display: flex;
     justify-content: space-evenly;
     flex-wrap:wrap;
@@ -120,9 +144,6 @@ p {
 #nav a{
     padding:4vh;
     color:rgb(252, 252, 252);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size:cover;
     border-style: double;
     text-decoration: none;
     font-size:3vh;
@@ -131,15 +152,30 @@ p {
 }
 
 #home {
+  
   background-image: url("roland2.webp");
+  background-position-y:-5.8rem;
+  background-size:100%;
 }
+
 
 #about {
   background-image: url("roland.jpeg");
+  background-position-y:32%;
+  background-size:cover;
+}
+
+
+#characters {
+  background-image: url("rolands.jpeg");
+  background-position-y: 30%;
+  background-size:cover;
 }
 
 #contact {
   background-image: url("roland3.jpeg");
+  background-position: center;
+  background-size:cover;
 }
 
 #nav a:hover{
