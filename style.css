@@ -229,7 +229,7 @@ p{
 
 .scrollFade {
   opacity: 1;
-  pointer-events: all;
+  pointer-events: all;;
 }
 .scrollFade--hidden {
   opacity: 0;
@@ -240,19 +240,17 @@ p{
   pointer-events: all;
 }
 .scrollFade--animate {
-  transition: opacity s ease-in-out;
+  transition: opacity 1s ease-in-out;
 }
-
 
 .item {
   width:50%;
   text-align: center;
-  margin-top:80%;
+  margin-top:20%;
 	display: flex;
   flex-wrap:wrap;
-  padding-bottom:45%;
+  padding-bottom:20%;
   justify-content: space-around;
-	background: transparent;
   font-size: 30px;
   margin-inline-start: 24%;
   font-family: 'Rye', cursive;
@@ -272,3 +270,4 @@ p{
   flex-direction:column;
   align-items:center;
 }
+
