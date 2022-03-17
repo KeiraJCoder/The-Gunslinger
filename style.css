@@ -15,6 +15,16 @@ h1 {
   text-shadow:black 2px 2px;
 }
 
+h2{
+    display: flex;
+    justify-content: center;
+    color:rgb(194, 19, 19);
+    font-family: 'Rye', cursive;
+    font-size:30px;
+    text-shadow:black 2px 2px;
+
+}
+
 p{
   display:block;
   font-size: larger;
@@ -29,8 +39,10 @@ p{
 }
 
 .quote{
+  display:flex;
+  justify-content:center;
   background-color:rgba(250, 250, 250, 0.805);
-  width:29%;
+  width:30%;
   font-family: 'Rye', cursive;
   align-items: center;
   flex-direction:column;
@@ -66,6 +78,18 @@ p{
   align-items: center;
 }
 
+.section {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.smaller {
+  width:30%;
+
+}
+
 
 /* ########Background images###### */
 
@@ -89,7 +113,9 @@ p{
 
 .ka-tet{
     background-image:url("2175854.jpg");
-    background-size: cover;
+    background-size: 100%;
+    background-position: fixed;
+    background-attachment: fixed;
     background-repeat:no-repeat;
     
 
@@ -256,6 +282,7 @@ p{
   font-family: 'Rye', cursive;
 }
 
+
 /*------*/
 
 @media(max-width: 750px) {
@@ -271,3 +298,9 @@ p{
   align-items:center;
 }
 
+.top {
+  background-image:url("roses.jpeg");
+  background-size:100%;
+  background-position-y:-25px;
+  background-repeat:no-repeat;
+}
