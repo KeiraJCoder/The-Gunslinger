@@ -114,6 +114,13 @@ p{
 }
 
 /* page 6 */
+.contact{
+  background-image:url("thumb.jpeg") ;
+  background-size: cover;
+  background-attachment:fixed;
+  background-repeat:no-repeat;
+
+}
 
 
 
