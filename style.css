@@ -101,8 +101,8 @@ p{
   background-color: #000000;
   background-attachment:fixed;
   background-repeat:no-repeat;
-
 }
+
 /* page 5 */
 .language{
   background-image:url("crop.jpeg") ;
@@ -110,7 +110,6 @@ p{
   background-color: #836f5e;
   background-attachment:fixed;
   background-repeat:no-repeat;
-
 }
 
 /* page 6 */
@@ -119,10 +118,7 @@ p{
   background-size: cover;
   background-attachment:fixed;
   background-repeat:no-repeat;
-
 }
-
-
 
 /* ############ DOOR ANIMATION################### */
 .door {
@@ -259,7 +255,7 @@ p{
   margin-top:20%;
 	display: flex;
   flex-wrap:wrap;
-  padding-bottom:20%;
+  padding-bottom:40%;
   justify-content: space-around;
   font-size: 30px;
   margin-inline-start: 24%;
