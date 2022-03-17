@@ -22,7 +22,16 @@ h2{
     font-family: 'Rye', cursive;
     font-size:30px;
     text-shadow:black 2px 2px;
+}
 
+h3{
+
+    display: flex;
+    justify-content: center;
+    color:rgb(235, 235, 235);
+    font-family: 'Rye', cursive;
+    font-size:50px;
+    text-shadow:black 2px 2px;
 }
 
 p{
@@ -54,44 +63,10 @@ p{
   background-position: center;
 }
 
-.title{
-  resize:none;
-  width:40%;
-  max-width:40%;
-  display:flex;
-  flex-wrap:wrap;
-  align-items: center;
-  justify-content: center;
-  text-shadow: rgb(0, 0, 0) 1, 5;
-  position: fixed !important;;
-  font-family: 'Rye', cursive;
-  text-align: center;
-  margin-left:30%;
-  margin-top:5;
-  font-size:3vw;
-  color:rgb(255, 255, 255);
-}
-
-.image {
-  display:block;
-  justify-content: center;
-  align-items: center;
-}
-
-.section {
-  display:flex;
-  flex-direction: column;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.smaller {
-  width:30%;
-
-}
 
 
-/* ########Background images###### */
+
+/* ########PAGE Background images###### */
 
 /* page 1 */
 #opening {
@@ -110,16 +85,16 @@ p{
   background-position: fixed;
   background-attachment: fixed;
 }
-
+/* page 3 */
 .ka-tet{
     background-image:url("2175854.jpg");
     background-size: 100%;
     background-position: fixed;
     background-attachment: fixed;
     background-repeat:no-repeat;
-    
-
 }
+
+/* page4 */
 .creed{
   background-image:url("scroll.jpeg") ;
   background-size: 100%;
@@ -128,6 +103,18 @@ p{
   background-repeat:no-repeat;
 
 }
+/* page 5 */
+.language{
+  background-image:url("crop.jpeg") ;
+  background-size: 100%;
+  background-color: #836f5e;
+  background-attachment:fixed;
+  background-repeat:no-repeat;
+
+}
+
+/* page 6 */
+
 
 
 /* ############ DOOR ANIMATION################### */
@@ -194,6 +181,14 @@ p{
     text-shadow: rgb(0, 0, 0) 1px 1px;
 }
 
+#nav a:hover{
+
+  color: rgb(181, 7, 18);
+}
+
+
+/* ##################NAVBAR BACKGROUND################ */
+
 #home {
   
   background-image: url("roland2.webp");
@@ -221,37 +216,19 @@ p{
   background-size:cover;
 }
 
+#language {
+  background-image: url("roly.jpeg");
+  background-position-y: 16%;
+  background-size:cover;
+}
+
 #contact {
   background-image: url("roland3.jpeg");
   background-position: center;
   background-size:cover;
 }
 
-#nav a:hover{
-
-    color: rgb(181, 7, 18);
-}
-
-/* #######OTHER####### */
-
-.button2 {
-  resize:none;
-  width:13%;
-  display:flex;
-  flex-wrap:wrap;
-  align-items: center;
-  justify-content: center;
-  text-shadow: black 1, 5;
-  position: fixed !important;;
-  font-family: 'Rye', cursive;
-  text-align: center;
-  margin-left:43%;
-  margin-top:27%;
-  font-size:1vw;
-  color:rgb(0, 0, 0);
-  overflow:hidden;
-}
-
+/* ##################FANCY SHIZ################ */
 
 .scrollFade {
   opacity: 1;
@@ -282,13 +259,31 @@ p{
   font-family: 'Rye', cursive;
 }
 
-
-/*------*/
-
 @media(max-width: 750px) {
 	body {
 		padding: 10px 25px;
 }
+}
+
+
+/* #######OTHER####### */
+
+.button2 {
+  resize:none;
+  width:13%;
+  display:flex;
+  flex-wrap:wrap;
+  align-items: center;
+  justify-content: center;
+  text-shadow: black 1, 5;
+  position: fixed !important;;
+  font-family: 'Rye', cursive;
+  text-align: center;
+  margin-left:43%;
+  margin-top:27%;
+  font-size:1vw;
+  color:rgb(0, 0, 0);
+  overflow:hidden;
 }
 
 .center{
@@ -303,4 +298,48 @@ p{
   background-size:100%;
   background-position-y:-25px;
   background-repeat:no-repeat;
+}
+
+.title{
+  resize:none;
+  width:40%;
+  max-width:40%;
+  display:flex;
+  flex-wrap:wrap;
+  align-items: center;
+  justify-content: center;
+  text-shadow: rgb(0, 0, 0) 1, 5;
+  position: fixed !important;;
+  font-family: 'Rye', cursive;
+  text-align: center;
+  margin-left:30%;
+  margin-top:5;
+  font-size:3vw;
+  color:rgb(255, 255, 255);
+}
+
+.image {
+  display:block;
+  justify-content: center;
+  align-items: center;
+}
+
+.section {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.section2 {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  font-size:23px;
+
+  flex-wrap: wrap;
+}
+
+
+.smaller {
+  width:30%;
 }
